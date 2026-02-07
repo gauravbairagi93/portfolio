@@ -1,0 +1,511 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Gaurav Bairagi | Project Manager & Engineer</title>\
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">\
+    <style>\
+        :root \{\
+            --primary: #0f172a; /* Deep Navy */\
+            --secondary: #3b82f6; /* Bright Blue */\
+            --accent: #fbbf24; /* Gold for certifications */\
+            --text: #334155;\
+            --light-bg: #f8fafc;\
+            --white: #ffffff;\
+        \}\
+\
+        * \{\
+            margin: 0;\
+            padding: 0;\
+            box-sizing: border-box;\
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\
+        \}\
+\
+        body \{\
+            color: var(--text);\
+            line-height: 1.6;\
+            background-color: var(--light-bg);\
+        \}\
+\
+        /* Navigation */\
+        nav \{\
+            background: rgba(255, 255, 255, 0.95);\
+            padding: 1rem 5%;\
+            position: fixed;\
+            width: 100%;\
+            top: 0;\
+            z-index: 1000;\
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: center;\
+        \}\
+\
+        .logo \{\
+            font-size: 1.5rem;\
+            font-weight: 700;\
+            color: var(--primary);\
+        \}\
+\
+        .nav-links a \{\
+            text-decoration: none;\
+            color: var(--text);\
+            margin-left: 2rem;\
+            font-weight: 500;\
+            transition: 0.3s;\
+        \}\
+\
+        .nav-links a:hover \{\
+            color: var(--secondary);\
+        \}\
+\
+        /* Hero Section */\
+        .hero \{\
+            padding: 8rem 5% 4rem;\
+            display: flex;\
+            align-items: center;\
+            justify-content: space-between;\
+            gap: 4rem;\
+            background: white;\
+        \}\
+\
+        .hero-text \{\
+            flex: 1;\
+        \}\
+\
+        .hero-text h1 \{\
+            font-size: 3.5rem;\
+            color: var(--primary);\
+            margin-bottom: 1rem;\
+            line-height: 1.1;\
+        \}\
+\
+        .hero-text h2 \{\
+            font-size: 1.5rem;\
+            color: var(--secondary);\
+            margin-bottom: 1.5rem;\
+            font-weight: 500;\
+        \}\
+\
+        .hero-text p \{\
+            font-size: 1.1rem;\
+            margin-bottom: 2rem;\
+            max-width: 600px;\
+        \}\
+\
+        .hero-img-container \{\
+            flex: 1;\
+            display: flex;\
+            justify-content: center;\
+            position: relative;\
+        \}\
+\
+        .hero-img \{\
+            width: 350px;\
+            height: 350px;\
+            object-fit: cover;\
+            border-radius: 50%;\
+            border: 8px solid var(--white);\
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);\
+            z-index: 2;\
+        \}\
+\
+        .badge-container \{\
+            position: absolute;\
+            bottom: 20px;\
+            right: 15%;\
+            background: var(--white);\
+            padding: 10px 20px;\
+            border-radius: 50px;\
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);\
+            display: flex;\
+            gap: 10px;\
+            z-index: 3;\
+        \}\
+\
+        .badge \{\
+            background: var(--primary);\
+            color: var(--white);\
+            padding: 5px 12px;\
+            border-radius: 15px;\
+            font-size: 0.8rem;\
+            font-weight: bold;\
+        \}\
+\
+        .btn \{\
+            display: inline-block;\
+            padding: 12px 30px;\
+            background: var(--secondary);\
+            color: white;\
+            text-decoration: none;\
+            border-radius: 5px;\
+            font-weight: 600;\
+            transition: 0.3s;\
+            border: none;\
+            cursor: pointer;\
+        \}\
+\
+        .btn:hover \{\
+            background: var(--primary);\
+            transform: translateY(-2px);\
+        \}\
+\
+        .btn-outline \{\
+            background: transparent;\
+            border: 2px solid var(--primary);\
+            color: var(--primary);\
+            margin-left: 10px;\
+        \}\
+\
+        .btn-outline:hover \{\
+            background: var(--primary);\
+            color: white;\
+        \}\
+\
+        /* Stats/Highlights */\
+        .stats \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\
+            gap: 2rem;\
+            padding: 4rem 5%;\
+            background: var(--primary);\
+            color: white;\
+            text-align: center;\
+        \}\
+\
+        .stat-item i \{\
+            font-size: 2rem;\
+            color: var(--accent);\
+            margin-bottom: 1rem;\
+        \}\
+\
+        .stat-item h3 \{\
+            font-size: 2rem;\
+            margin-bottom: 0.5rem;\
+        \}\
+\
+        /* Sections */\
+        .section-title \{\
+            text-align: center;\
+            font-size: 2.2rem;\
+            color: var(--primary);\
+            margin-bottom: 3rem;\
+        \}\
+\
+        .container \{\
+            padding: 5rem 5%;\
+        \}\
+\
+        /* Experience Timeline */\
+        .timeline \{\
+            max-width: 900px;\
+            margin: 0 auto;\
+            position: relative;\
+        \}\
+\
+        .timeline::after \{\
+            content: '';\
+            position: absolute;\
+            width: 4px;\
+            background-color: #ddd;\
+            top: 0;\
+            bottom: 0;\
+            left: 20px;\
+            margin-left: -2px;\
+        \}\
+\
+        .card \{\
+            background: white;\
+            padding: 2rem;\
+            border-radius: 10px;\
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);\
+            margin-bottom: 2rem;\
+            margin-left: 50px;\
+            position: relative;\
+        \}\
+\
+        .card::before \{\
+            content: '';\
+            position: absolute;\
+            width: 20px;\
+            height: 20px;\
+            left: -60px;\
+            background-color: var(--secondary);\
+            border: 4px solid white;\
+            top: 25px;\
+            border-radius: 50%;\
+            z-index: 1;\
+        \}\
+\
+        .card h3 \{\
+            color: var(--primary);\
+            margin-bottom: 0.5rem;\
+        \}\
+\
+        .card .company \{\
+            color: var(--secondary);\
+            font-weight: 600;\
+            margin-bottom: 1rem;\
+            display: block;\
+        \}\
+\
+        .card ul \{\
+            margin-left: 1.2rem;\
+            margin-top: 1rem;\
+        \}\
+\
+        .card ul li \{\
+            margin-bottom: 0.5rem;\
+            font-size: 0.95rem;\
+        \}\
+\
+        /* Skills Grid */\
+        .skills-grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
+            gap: 2rem;\
+            max-width: 1200px;\
+            margin: 0 auto;\
+        \}\
+\
+        .skill-category h3 \{\
+            margin-bottom: 1.5rem;\
+            color: var(--primary);\
+            border-bottom: 2px solid var(--secondary);\
+            padding-bottom: 0.5rem;\
+            display: inline-block;\
+        \}\
+\
+        .skill-tag \{\
+            background: white;\
+            padding: 8px 15px;\
+            border-radius: 20px;\
+            display: inline-block;\
+            margin: 5px 0;\
+            font-size: 0.9rem;\
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\
+            border: 1px solid #e2e8f0;\
+        \}\
+\
+        /* Contact */\
+        .contact \{\
+            background: white;\
+            text-align: center;\
+            padding: 5rem 5%;\
+        \}\
+\
+        .contact-links \{\
+            display: flex;\
+            justify-content: center;\
+            gap: 2rem;\
+            margin-top: 2rem;\
+        \}\
+\
+        .contact-btn \{\
+            display: flex;\
+            align-items: center;\
+            gap: 10px;\
+            text-decoration: none;\
+            color: var(--text);\
+            font-weight: 500;\
+            padding: 10px 20px;\
+            border: 1px solid #ddd;\
+            border-radius: 50px;\
+            transition: 0.3s;\
+        \}\
+\
+        .contact-btn:hover \{\
+            border-color: var(--primary);\
+            background: var(--light-bg);\
+        \}\
+\
+        @media (max-width: 768px) \{\
+            .hero \{\
+                flex-direction: column-reverse;\
+                text-align: center;\
+                padding-top: 6rem;\
+            \}\
+            \
+            .hero-text h1 \{\
+                font-size: 2.5rem;\
+            \}\
+\
+            .hero-img \{\
+                width: 280px;\
+                height: 280px;\
+            \}\
+\
+            .badge-container \{\
+                right: 50%;\
+                transform: translateX(50%);\
+            \}\
+\
+            .nav-links \{\
+                display: none;\
+            \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <nav>\
+        <div class="logo">GB.</div>\
+        <div class="nav-links">\
+            <a href="#about">About</a>\
+            <a href="#experience">Experience</a>\
+            <a href="#skills">Skills</a>\
+            <a href="#contact">Contact</a>\
+        </div>\
+    </nav>\
+\
+    <section class="hero" id="about">\
+        <div class="hero-text">\
+            <h2>PMP\'ae Certified Project Manager</h2>\
+            <h1>Gaurav Bairagi</h1>\
+            <p>Mechanical Engineer with 10+ years of experience transforming ideas into reality. Expert in Product Change Management, Governance, and PLM (Windchill). I bridge the gap between technical R&D and strategic business goals.</p>\
+            <div class="cta-group">\
+                <a href="#contact" class="btn">Get in Touch</a>\
+                <a href="resume.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-download"></i> Download Resume</a>\
+            </div>\
+        </div>\
+        <div class="hero-img-container">\
+            <img src="gaurav-profile.jpg" alt="Gaurav Bairagi" class="hero-img">\
+            <div class="badge-container">\
+                <span class="badge">PMP\'ae Certified</span>\
+                <span class="badge">Six Sigma Green Belt</span>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <div class="stats">\
+        <div class="stat-item">\
+            <i class="fas fa-chart-line"></i>\
+            <h3>$620k</h3>\
+            <p>Annual Savings Delivered</p>\
+        </div>\
+        <div class="stat-item">\
+            <i class="fas fa-certificate"></i>\
+            <h3>US16683898</h3>\
+            <p>US Patent Holder</p>\
+        </div>\
+        <div class="stat-item">\
+            <i class="fas fa-briefcase"></i>\
+            <h3>10+ Years</h3>\
+            <p>Engineering & PM Exp.</p>\
+        </div>\
+        <div class="stat-item">\
+            <i class="fas fa-award"></i>\
+            <h3>2x</h3>\
+            <p>"You Are A Star" Awardee</p>\
+        </div>\
+    </div>\
+\
+    <section class="container" id="experience">\
+        <h2 class="section-title">Professional Journey</h2>\
+        <div class="timeline">\
+            <div class="card">\
+                <h3>Analyst (Project Manager)</h3>\
+                <span class="company">Whirlpool of India Ltd | Sep 2023 - Present</span>\
+                <ul>\
+                    <li>Leading sourcing projects for Hobs, MWO, and Cooktops across various regions.</li>\
+                    <li>Managing full product change lifecycle and BOM management using Windchill PLM.</li>\
+                    <li>Established centralized reporting systems (Single Source of Truth) to track project cost and quality.</li>\
+                    <li>Acting as central coordination point for Procurement, Quality, and Manufacturing teams.</li>\
+                </ul>\
+            </div>\
+\
+            <div class="card">\
+                <h3>Senior Engineer</h3>\
+                <span class="company">Johnson Controls India Ltd | Nov 2021 - Sep 2023</span>\
+                <ul>\
+                    <li>Managed development projects for Fire and Smoke dampers.</li>\
+                    <li>Expertise in FMEA & DVPs for Component and Subsystem Levels.</li>\
+                    <li>Led cross-functional interaction with Tool room, Manufacturing, and Suppliers.</li>\
+                </ul>\
+            </div>\
+\
+            <div class="card">\
+                <h3>Engineer (Specialist Engineering)</h3>\
+                <span class="company">Whirlpool of India Ltd | Jan 2016 - Nov 2021</span>\
+                <ul>\
+                    <li>Led Cost, Quality, and MOB Projects from Ideation to SOP.</li>\
+                    <li>Secured US Patent for "Appliance door hinge assembly" (Quality Improvement).</li>\
+                    <li>Achieved $15M DCM impact and reduced time to market by 22% as System Integrator.</li>\
+                    <li>Implemented 2 projects in 2020 delivering $620K USD annual savings.</li>\
+                </ul>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section class="container" id="skills" style="background-color: white;">\
+        <h2 class="section-title">Technical Expertise</h2>\
+        <div class="skills-grid">\
+            <div class="skill-category">\
+                <h3>Project Management</h3>\
+                <div>\
+                    <span class="skill-tag">PMP\'ae Certified</span>\
+                    <span class="skill-tag">Six Sigma Green Belt</span>\
+                    <span class="skill-tag">Risk Assessment</span>\
+                    <span class="skill-tag">Cost Analysis</span>\
+                    <span class="skill-tag">Vendor Management</span>\
+                    <span class="skill-tag">Gantt Charts</span>\
+                </div>\
+            </div>\
+\
+            <div class="skill-category">\
+                <h3>Engineering & Design</h3>\
+                <div>\
+                    <span class="skill-tag">Value Engineering (VAVE)</span>\
+                    <span class="skill-tag">New Product Development (NPD)</span>\
+                    <span class="skill-tag">GD&T</span>\
+                    <span class="skill-tag">FMEA & DVP&R</span>\
+                    <span class="skill-tag">BOM Management</span>\
+                    <span class="skill-tag">Packaging Design</span>\
+                </div>\
+            </div>\
+\
+            <div class="skill-category">\
+                <h3>Tools & Standards</h3>\
+                <div>\
+                    <span class="skill-tag">Windchill PLM</span>\
+                    <span class="skill-tag">SAP Costing</span>\
+                    <span class="skill-tag">Smartsheets</span>\
+                    <span class="skill-tag">MS Project/Excel</span>\
+                    <span class="skill-tag">ASME/ISO Standards</span>\
+                    <span class="skill-tag">UL/ANSI Standards</span>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section class="contact" id="contact">\
+        <h2 class="section-title">Let's Connect</h2>\
+        <p>Currently based in Pune, India. Open to opportunities in Project Management and Product Development.</p>\
+        \
+        <div class="contact-links">\
+            <a href="mailto:gauravbairagi93@gmail.com" class="contact-btn">\
+                <i class="fas fa-envelope"></i> Email Me\
+            </a>\
+            <a href="https://www.linkedin.com/in/gauravbairagi" target="_blank" class="contact-btn">\
+                <i class="fab fa-linkedin"></i> LinkedIn\
+            </a>\
+            <a href="tel:+918055217763" class="contact-btn">\
+                <i class="fas fa-phone"></i> +91 8055217763\
+            </a>\
+        </div>\
+    </section>\
+\
+    <footer style="background: var(--primary); color: white; text-align: center; padding: 2rem;">\
+        <p>&copy; 2026 Gaurav Bairagi. All rights reserved.</p>\
+    </footer>\
+\
+</body>\
+</html>}
